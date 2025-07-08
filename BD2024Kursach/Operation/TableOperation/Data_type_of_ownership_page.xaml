@@ -1,0 +1,21 @@
+﻿<Page x:Class="BD2024Kursach.Operation.TableOperation.Data_type_of_ownership_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:BD2024Kursach.Operation.TableOperation"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Data_type_of_ownership_page">
+
+    <Grid Margin="5">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Row="0" Content="Название типа собственности:"/>
+        <TextBox x:Name="NameTypeTextBox" Grid.Row="1"/>
+
+    </Grid>
+</Page>
